@@ -40,8 +40,8 @@ int main(){
     densidadepopulacional = populacao / Area;
     PIBpercapta = PIB / populacao;
 
-printf("Densidade populacional: %f \n", densidadepopulacional);
-printf("PIB percapta: %f\n", PIBpercapta );
+printf("Densidade populacional: %.2f \n", densidadepopulacional);
+printf("PIB percapta: %.2f\n", PIBpercapta );
 
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
     // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
